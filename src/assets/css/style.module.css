@@ -1,0 +1,42 @@
+/********** Setting **********/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --set-main1: #EEE9DA;
+  --set-main2: #BDCDD6;
+  --set-main2-dark: #12181C;
+  --set-main3: #93BFCF;
+  --set-main4: #6096B4;
+
+  --set-white: #FFFFFF;
+  --set-lightgray: #E6E6E6;
+  --set-gray: #B3B3B3;
+  --set-black: #000000;
+}
+
+
+/********** Font **********/
+@font-face {
+  font-family: "HANAMDAUM";
+  src: url("../font/HANAMDAUM\(Windows\).ttf");
+}
+@font-face {
+  font-family: "HANAMDAUM_BODY";
+  src: url("../font/HANAMDAUM_Body\(Windows\)_a.ttf");
+}

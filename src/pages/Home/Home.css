@@ -1,0 +1,84 @@
+/********** Home **********/
+.home {
+  width: 100%;
+  height: 720px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: 'HANAMDAUM_BODY';
+  background-color: var(--set-lightgray);
+  border-bottom: 0.5px black solid;
+}
+
+/********** Box **********/
+.box {
+  width: 70%;
+  height: 65%;
+  display: flex;
+}
+
+.boxLeft {
+  flex-basis: 50%;
+}
+
+.boxRight {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.name {
+  font-family: 'HANAMDAUM';
+  font-size: 72px;
+}
+
+.title {
+  font-family: 'HANAMDAUM';
+  font-size: 48px;
+  margin-bottom: 80px
+  ;
+}
+
+.line {
+  width: 288px;
+  height: 4px;
+  background-color: var(--set-main2-dark);
+}
+
+.explain {
+  font-size: 20px;
+  line-height: 1.5rem;
+  margin-top: 90px;
+}
+
+.component {
+  width: 230px;
+  height: 210px;
+  border-radius: 45px;
+  border: 1px #B3B3B3 solid;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component:hover {
+  background-color: var(--set-main3);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 90px;
+  background-color: var(--set-main2-dark);
+  position: absolute;
+}
+
+.componentText {
+  font-family: 'HANAMDAUM';
+  font-size: 24px;
+  display: flex;
+}
